@@ -1,0 +1,27 @@
+<%- include("partials/header"); -%>
+
+    <form class="" action="/edit" method="post">
+      <div class="form-group">
+        <label> Edit Home Content </label>
+        <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button" value="Home">Edit</button>
+    </form>
+
+    <form class="" action="/edit" method="post">
+      <div class="form-group">
+        <label> Edit About Content </label>
+        <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button" value="about">Edit</button>
+    </form>
+
+    <form class="" action="/edit" method="post">
+      <div class="form-group">
+        <label>Edit Contact Content </label>
+        <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button" value="contact">Edit</button>
+    </form>
+
+<%- include("partials/footer"); -%>
